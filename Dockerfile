@@ -11,6 +11,7 @@ RUN chmod 644 /opt/wait_to_run.sh && \
     apt-get upgrade -y && \
     apt-get install -y \
         gnupg2 \
+        iputils-ping \
         lsof \
         netcat \
         net-tools \
